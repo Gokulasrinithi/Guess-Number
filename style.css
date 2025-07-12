@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+h1{
+    color:blueviolet;
+    text-align:center;
+    padding:20px;
+}
+
+body{
+    background-color: aqua;
+    height:100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;   
+    gap:10px;
+    padding:10px; 
+    flex-wrap: wrap;
+}
+
+#result p{
+    text-align: center;
+    padding:20px;
+    
+}
+
+ #score p{
+    text-align: center;
+    padding:20px;
+    margin-top:4px;
+    
+}
+
+#number{
+    height:30px;
+    
+}
+
+p{
+    color:blueviolet;
+    font-weight:bold;
+}
